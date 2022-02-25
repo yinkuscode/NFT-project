@@ -1,0 +1,118 @@
+/* default browser styles */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: 100;
+}
+
+
+
+
+/* css variables */
+
+:root{
+
+--Softblue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Very-dark-blue-mainmb: hsl(217, 54%, 11%);
+--Very-dark-blue-cardBG: hsl(216, 50%, 16%);
+--Very-dark-blueline: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%)
+}
+
+body{
+   background-color: var(--Very-dark-blue-mainmb);
+  
+}
+  
+.section{
+max-width: 400px;
+margin: 0 auto;
+color:var(--White);
+
+background:var(--Very-dark-blue-cardBG);
+padding: 32px;
+border-radius: 12px;
+
+
+/* margin-top: 0;
+margin-bottom: 0;
+margin-right: auto;
+margin-left: auto; */
+
+}
+
+.firstImage{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.firstDiv{
+    padding-top: 35px;
+}
+
+.firstDiv h2{
+    padding-bottom: 30px;
+}
+
+.firstH2:hover{
+       color:var(--Cyan);
+       cursor: pointer;
+}
+
+.secondH2{
+    font-size:15px;
+    color: var(--Cyan);
+}
+
+.thirdH2{
+    font-size: 15px;
+    padding-left: 18px;
+    color: var(--Softblue);
+}
+
+.firstP{
+    padding-bottom: 30px;
+    color: var(--Softblue);
+    font-size: 20px;
+    
+}
+
+.secondDiv{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px var(--Very-dark-blueline) solid;
+    padding-bottom: 40px;
+    
+}
+
+.Ham{
+    display: flex;
+}
+.Vim{
+    display: flex;
+  
+}
+
+.thirdDiv{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.thirdDiv img{
+    width: 50px;
+    border: 1px white solid;
+    border-radius: 50px;
+}
+.span{
+    color: var(--Softblue);
+}
+
+.thirdDiv h3:hover{
+    color: cyan;
+    cursor: pointer;
+}
